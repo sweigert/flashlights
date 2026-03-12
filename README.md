@@ -13,13 +13,13 @@ The jupyter notebooks contain the different live cosing steps.
   * The most straight-forward implementation of the drawing algorithm.
   * Cannot be trained because it contains python control-flow statements which cannot be tracked by pytorch.
 * [2.ipynb](code/2.ipynb)
- * Vectorized pixel loop
- * Still cannot be trained because the loss has no gradient
+  * Vectorized pixel loop
+  * Still cannot be trained because the loss has no gradient
 * [3.ipynb](code/3.ipynb)
- * First version that can be trained because we use sigmoid now
+  * First version that can be trained because we use sigmoid now
 * [4.ipynb](code/4.ipynb)
- * Add an additional parameter: Lens focus
- * Thi sis where the gif comes from
+  * Add an additional parameter: Lens focus
+  * Thi sis where the gif comes from
 * [5.ipynb](code/5.ipynb)
- * Introduce an additional cost for every flashlight proportional to its brightness
- * This allows to find the minimal number of required flashlights
+  * Introduce an additional cost for every flashlight proportional to its brightness
+  * This allows to find the minimal number of required flashlights
