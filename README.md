@@ -8,7 +8,7 @@ _This is "[The Bedroom](https://www.vangoghmuseum.nl/en/collection/s0047v1962)" 
 
 [slides.pdf](material/slides.pdf) has the slides of my [decompiled](https://decompiled.de/) 2026 talk.
 
-The jupyter notebooks contain the different live cosing steps.
+The jupyter notebooks contain the different live coding steps.
 * [1.ipynb](code/1.ipynb)
   * The most straight-forward implementation of the drawing algorithm.
   * Cannot be trained because it contains python control-flow statements which cannot be tracked by pytorch.
@@ -19,7 +19,7 @@ The jupyter notebooks contain the different live cosing steps.
   * First version that can be trained because we use sigmoid now
 * [4.ipynb](code/4.ipynb)
   * Add an additional parameter: Lens focus
-  * Thi sis where the gif comes from
+  * This is where the gif comes from
 * [5.ipynb](code/5.ipynb)
   * Introduce an additional cost for every flashlight proportional to its brightness
   * This allows to find the minimal number of required flashlights
